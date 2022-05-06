@@ -131,3 +131,5 @@ dist
 
 # sass
 .sass-cache
+
+.DS_Store
