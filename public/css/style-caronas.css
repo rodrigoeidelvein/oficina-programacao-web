@@ -1,0 +1,77 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  cursor: default; }
+
+.container-caronas {
+  position: relative;
+  background: white;
+  height: 50vh;
+  display: flex;
+  flex-direction: column; }
+
+.container-caronas h1 {
+  position: absolute;
+  color: #fe6e00;
+  top: 10%;
+  left: 53vw;
+  width: 40vw;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 100px;
+  font-family: verdana, sans-serif; }
+
+.container-caronas img {
+  height: 100%;
+  width: 50%;
+  float: left; }
+
+.flexbox-item p {
+  position: absolute;
+  top: 50px;
+  width: 100%;
+  text-align: center;
+  font-family: georgia, serif;
+  font-size: 25px; }
+
+.container-pagina {
+  position: relative;
+  background: #fe6e00;
+  height: 40vh;
+  display: flex;
+  flex-direction: column; }
+
+.container-pagina h1 {
+  position: absolute;
+  margin-top: 20px;
+  left: 10%;
+  font-size: 40px;
+  padding-right: 20px;
+  border-bottom: 4px solid white;
+  text-transform: uppercase;
+  font-family: verdana, sans-serif;
+  color: white; }
+
+.container-pagina p {
+  position: absolute;
+  left: 20px;
+  top: 40%;
+  right: 20px;
+  text-align: justify;
+  font-family: Georgia, serif;
+  color: white;
+  font-size: 30px; }
+
+footer {
+  text-align: center;
+  height: 10vh;
+  background-color: white; }
+
+footer p {
+  padding-top: 3vh;
+  font-family: verdana, sans-serif;
+  font-weight: bold;
+  color: #fe6e00; }
+
+/*# sourceMappingURL=style-caronas.css.map */
